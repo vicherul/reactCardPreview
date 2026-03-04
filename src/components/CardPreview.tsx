@@ -47,10 +47,10 @@ const CardPreview = () => {
                 
                 <div className="z-10">
                     <p className={`text-[10px] font-bold uppercase tracking-[0.2em] transition-colors duration-500 ${name ? 'text-indigo-200' : 'text-slate-400'}`}>
-                        Digital Identity Card
+                        Tarjeta de Identidad Digital
                     </p>
                     <h2 className={`text-3xl font-medium mt-4 tracking-tight break-words transition-colors duration-500 ${name ? 'text-white' : 'text-slate-300'}`}>
-                        {name || "Your name here"}
+                        {name || "Tu Nombre Aquí"}
                     </h2>
                 </div>
 
