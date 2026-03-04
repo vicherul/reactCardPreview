@@ -10,7 +10,7 @@ const CardPreview = () => {
     return (
         <div className="flex flex-col items-center justify-center p-10 space-y-10 bg-white border border-slate-100 shadow-[0_20px_50px_rgba(8,_112,_184,_0.07)] rounded-[2.5rem] min-h-[450px] transition-all">
             
-            {/* Sección del Input */}
+            // seccion del imput para el nombre
             <div className="w-full max-w-sm">
                 <label className="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-3 ml-1">
                     Identificación
