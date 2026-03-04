@@ -1,5 +1,6 @@
 import './App.css'
-import CardPreview from './components/CardPreview'
+import CardPreview from './components/CardPreview/CardPreview'
+import Interruptor from './components/InterruptorMagico/InterruptorMagico'
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <CardPreview />
+      <Interruptor />
     </>
   )
 }
